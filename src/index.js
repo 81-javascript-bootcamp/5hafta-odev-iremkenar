@@ -5,6 +5,7 @@ import PomodoroApp from './app';
 let pomodoroApp = new PomodoroApp({
   tableTbodySelector: '#table-tbody',
   taskFormSelector: '#task-form',
+  addTaskBtn: '#create-task',
 });
 
 pomodoroApp.init();
